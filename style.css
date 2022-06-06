@@ -2,6 +2,48 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  --main-color: #f7c400;
+  --background-dark: #2d2e2e;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--background-dark);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  height: 55px;
+  margin: 0;
+}
+
+.nav-item {
+  padding-right: 20px;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.nav-item a:hover {
+  color: rgb(238, 47, 40);
+  font-size: 18px;
+}
+
 .name {
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
 }
