@@ -10,8 +10,10 @@ body {
   --main-color-light: #e2c037;
   --background-dark: #2d2e2e;
   --background-grey: #4b4b4b;
+  --background-midi-grey: #585858;
   --background-light-grey: #797979;
   --text-color: #1a1a1a;
+  --text-color-light: #d9d7d7;
 }
 
 .container {
@@ -62,11 +64,13 @@ body {
 
 .main-columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .wrap-left {
   width: 40%;
   background-color: var(--background-grey);
+  color: var(--text-color-light);
 }
 
 .wrap-right {
@@ -90,7 +94,7 @@ body {
   border-radius: 50%;
   width: 280px;
   height: 280px;
-  margin: 55px auto 55px auto;
+  margin: 55px auto 20px auto;
   padding: 3px;
   position: relative;
 }
@@ -146,6 +150,75 @@ body {
   color: var(--text-color);
   padding-top: 6px;
   padding-left: 35%
+}
+
+.section {
+  padding: 30px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.subtitle {
+  color: var(--main-text-color);
+  border: 2px solid var(--background-light-grey);
+  width: fit-content;
+  padding: 3px 17px;
+  border-radius: 30px;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 26px;
+  margin-top: 12px;
+}
+
+.list {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--text-color-light);
+  transition: color 0.5s;
+}
+
+.contact-link:hover {
+  color: var(--main-color-light);
+}
+
+.contact-item {
+  line-height: 28px;
+}
+
+.contact-icon {
+  color: var(--main-text-color);
+  display: inline-block;
+  width: 28px;
+  text-align: center;
+  padding-right: 12px;
+}
+
+.wrap-midi-dark {
+  background-color: var(--background-midi-grey);
+  color: var(--text-color-light);
+}
+
+.skills-item {
+  line-height: 34px;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.skill-scope {
+  display: flex;
+  align-items: center;
+}
+
+.scope-disk {
+  background-color: var(--text-color-light);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 6px;
 }
 
 @media (max-width: 690px) {
