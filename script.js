@@ -17,6 +17,6 @@ const navMenuEl = document.querySelector('.nav-list');
 
 function toggleMenu() {
   navMenuEl.classList.toggle('move')
-}
+};
 
-navBarEl.addEventListener('click', toggleMenu)
+navBarEl.addEventListener('click', toggleMenu);
