@@ -69,11 +69,8 @@ body {
 
 .wrap-left {
   width: 40%;
-  color: var(--text-color-light);
-}
-
-.wrap-dark {
   background-color: var(--background-grey);
+  color: var(--text-color-light);
 }
 
 .wrap-right {
@@ -173,16 +170,6 @@ body {
   margin-top: 12px;
 }
 
-.subtitle-left-block {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-right-block {
-  width: 100%;
-  padding-left: 70px;
-}
-
 .list {
   list-style: none;
 }
@@ -190,7 +177,7 @@ body {
 .contact-link {
   text-decoration: none;
   color: var(--text-color-light);
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 .contact-link:hover {
@@ -214,15 +201,11 @@ body {
   color: var(--text-color-light);
 }
 
-.text {
-  text-align: justify;
-}
-
 .skills-item {
   line-height: 34px;
   display: flex;
   justify-content: space-between;
-  width: 250px;
+  width: 270px;
 }
 
 .skill-scope {
@@ -235,51 +218,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin-left: 4px;
-}
-
-.scope-disk-yellow {
-  background-color: var(--main-color-light);
-}
-
-.code {
-  font-size: 14px;
-  color: var(--text-color-light);
-}
-
-.education-list{
-  margin-left: 14px;
-}
-
-.education-item {
-  margin-bottom: 9px;
-}
-
-.footer {
-  background-color: var(--background-dark);
-}
-
-.footer-wrap {
-  height: 55px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--text-color-light);
-  padding: 0 4%;
-}
-
-.year {
-  padding-right: 20px;
-}
-
-.rss-icon {
-  height: 30px;
-  fill: var(--text-color-light);
-  transition: fill 0.3s;
-}
-
-.rss-icon:hover {
-  fill: var(--main-color-light)
+  margin-left: 6px;
 }
 
 @media (max-width: 690px) {
@@ -339,19 +278,5 @@ body {
     font-size: 16px;
     padding-left: 25%;
     padding-bottom: 40px;
-  }
-
-  .section-right-block {
-    padding-left: 30px;
-  }
-
-  .subtitle {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .section-code {
-    padding-right: 0;
-    padding-left: 0;
   }
 }
