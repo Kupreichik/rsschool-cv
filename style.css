@@ -4,7 +4,11 @@
   padding: 0;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
   font-family: "Poppins", sans-serif;
   --main-text-color: #e5b90a;
   --main-color-light: #e2c037;
@@ -238,6 +242,10 @@ body {
   margin-left: 4px;
 }
 
+.scope-disk:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .scope-disk-yellow {
   background-color: var(--main-color-light);
 }
@@ -293,28 +301,33 @@ body {
   }
 
   .nav-bar:hover {
-    color: rgb(238, 47, 40);
     transform: scale(1.2, 1.2);
     cursor: pointer;
+  }
+
+  .nav-bar:active {
+    color: rgb(238, 47, 40);
   }
 
   .nav-list {
     flex-direction: column;
     position: absolute;
-    border: 2px solid var(--main-color-light);
     top: 55px;
-    right: -26vh;
-    width: 170px;
+    right: 0;
+    width: 0;
+    overflow: hidden;
     background-color: var(--background-dark);
     height: 230px;
-    padding: 10px;
     justify-content: space-around;
     align-items: end;
-    transition: right 1s;
+    transition: all 1s ease;
   }
 
-  .move {
-    right: 0vh;
+  .nav-list-show {
+    width: 170px;
+    padding: 10px;
+    border: 2px solid var(--main-color-light);
+    box-shadow: 0px 5px 10px 2px rgba(27, 26, 27, 0.6);
   }
 
   .main-columns {

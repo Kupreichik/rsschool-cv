@@ -16,7 +16,15 @@ handleViewWidthChange();
 const navMenuEl = document.querySelector('.nav-list');
 
 function toggleMenu() {
-  navMenuEl.classList.toggle('move')
-}
+  navMenuEl.classList.toggle('nav-list-show');
+};
 
-navBarEl.addEventListener('click', toggleMenu)
+navBarEl.addEventListener('click', e => {
+  e.stopPropagation();
+  toggleMenu();
+  });
+document.addEventListener('click', e => {
+  if(!e.target.classList.contains('nav-list') && navMenuEl.classList.contains('nav-list-show')) {
+    navMenuEl.classList.toggle('nav-list-show');
+  }
+});

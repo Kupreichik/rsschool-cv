@@ -8,7 +8,7 @@
 - __Discord:__ Julia Kupreichik
 
 ## __About Me__
-I am 32 years old and I decided to change my life and my profession. I am an economist-meneger by first aducation, but now I am studying the development diligently and I really like it! I love learning, I am open to new people and knowledges.
+I am 32 years old and I decided to change my life and my profession totally. I am an economist by first education, but now I am studying the development diligently and I really like it! I like learning, and open to new connections and knowledges.
 
 ## __Skills__
 - HTML
@@ -29,9 +29,9 @@ function capitalizeWord(word) {
 in programming so far only study exercises
 
 ## __Education__
-- Belgorod State Technological University. V.G. Shukhov, economist-meneger
+- Belgorod State Technological University. V.G. Shukhov, economist
 - GeekBrains, front-end developer
-- Pre-school course RS School (in process)
+- Pre-school course RS School (in progress)
 
 ## __Languages__
 __English__- A2 (training to B1)
