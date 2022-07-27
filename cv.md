@@ -34,4 +34,4 @@ in programming so far only study exercises
 - Pre-school course RS School (in progress)
 
 ## __Languages__
-__English__- A2 (training to B2)
+__English__- A2 (training to B1)
